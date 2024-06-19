@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+   font-family:'poppins', sans-serif;
+   width: 100%;
+
+}
+.container{
+    margin-top : 2%;
+    margin-left : 14%;
+}
+.card{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    height : 100%;
+}
+.card-header{
+    background: linear-gradient(to left,#b92b27, #1565c0);
+    color: white;
+    font-weight: 600;
+}
+.btn-success {
+    background-color: #1565c0;
+}

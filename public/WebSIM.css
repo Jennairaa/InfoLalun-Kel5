@@ -1,0 +1,27 @@
+.main{
+    height :100vh;
+    border : solid;
+}
+.container{
+    width: 80%;
+    border : solid 1 px;
+    border-radius : 15% ;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    font-weight: 600px;
+    font-size: 34px;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+}  
+
+.form-group button:hover {
+margin-left: ;
+font-weight: ;
+f
+}
+            
+
+

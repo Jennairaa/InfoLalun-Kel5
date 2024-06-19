@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+   font-family:'poppins', sans-serif;
+   width: 100%;
+
+}
+  /* Custom CSS untuk menyesuaikan tata letak atau gaya tambahan */
+  .police-nav {
+    background: linear-gradient(to left,#b92b27, #1565c0);
+   /* background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D');  URL gambar latar belakang polisi */
+    background-size: cover; /* Agar gambar latar belakang menutupi seluruh area navigasi */
+   padding: 20px; /* Spasi internal */
+    position :fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    margin-bottom: 10%;
+  }
+
+  .navbar-brand {
+    color: #fff; /* Warna teks untuk merek navbar */
+    font-weight: bold; /* Tebal teks */
+    margin-left:20px;
+  }
+  .navbar img{
+    width: 40px;
+  }
+  .navbar-nav .nav-link {
+    color: #fff !important; /* Warna teks untuk tautan navigasi */
+    font-weight: bold; /* Tebal teks */
+    margin-right:30px;
+  }
+  .navbar-nav .nav-link:hover{
+    background:#770804;
+    border-radius: 10%;
+  }
+  .welcome-message {
+    position: absolute; /* Menetapkan posisi absolut */
+    top: 50%; /* Menempatkan di tengah vertikal */
+    left: 50%; /* Menempatkan di tengah horizontal */
+    transform: translate(-50%, -50%); /* Pusatkan elemen */
+    color: #fff; /* Warna teks */
+    font-size:30px; /* Ukuran teks */
+    font-weight: 600; /* Tebal teks */
+    text-align: center; /* Pusatkan teks */
+  }
+  .btn-below-welcome {
+    position: absolute; /* Menetapkan posisi absolut */
+    top: 80%; /* Menempatkan di bawah tulisan kedua */
+    left: 50%; /* Menempatkan di tengah horizontal */
+    transform: translateX(-50%); /* Pusatkan elemen */
+    background-color : #1565c0;
+    border : none;
+  
+  }
+  .nav-cartoon {
+    position: relative; /* Menetapkan posisi relatif */
+    display: inline-block; /* Agar elemen bisa berada dalam aliran teks */
+    margin-right: 20px; /* Jarak kanan */
+  }
+  .nav-cartoon img {
+    max-height: 40px; /* Tinggi maksimum gambar */
+    vertical-align: middle; /* Pusatkan gambar secara vertikal */
+  }
+  .nav-cartoon .nav-link {
+    padding-left: 50px; /* Tambahkan padding kiri untuk membuat ruang untuk gambar */
+  }
+  .half-image {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    transform: translateX(-50%);
+    z-index: 0; /* Mengubah nilai z-index ke 0 */
+    max-height: 100%;
+    width: 350px;
+  }

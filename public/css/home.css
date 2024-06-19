@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body{
+   font-family:'poppins', sans-serif;
+   width: 100%;
+
+}
+.puki{
+ background-image: url('https://plu.unsplash.com/premium_photo-1666274789529-0fd5aa038fe5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YmFja2dyb3VuZCUyMHB1dGloJTIwY29yYWslMjBiaXJ1fGVufDB8fDB8fHww');
+ margin-top:0;
+ display: block;
+}
+   /* Custom CSS untuk menyesuaikan tata letak atau gaya tambahan */
+   .police-nav {
+     background-image: url('https://images.unsplash.com/photo-1557683316-973673baf926?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Ymx1ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D'); /* URL gambar latar belakang polisi */
+     background-size: cover; /* Agar gambar latar belakang menutupi seluruh area navigasi */
+     padding: 20px; /* Spasi internal */
+   
+     
+   }
+   .navbar-brand {
+     color: #fff; /* Warna teks untuk merek navbar */
+     font-weight: bold; /* Tebal teks */
+     margin-left:20px;
+   }
+   .navbar-nav .nav-link {
+     color: #fff !important; /* Warna teks untuk tautan navigasi */
+     font-weight: bold; /* Tebal teks */
+     margin-right:30px;
+   }
+   .navbar-nav .nav-link:hover{
+     background:#1565c0;
+     border-radius: 10%;
+   }
+   .welcome-message {
+     position: absolute; /* Menetapkan posisi absolut */
+     top: 50%; /* Menempatkan di tengah vertikal */
+     left: 50%; /* Menempatkan di tengah horizontal */
+     transform: translate(-50%, -50%); /* Pusatkan elemen */
+     color: #fff; /* Warna teks */
+     font-size:30px; /* Ukuran teks */
+     font-weight: 600; /* Tebal teks */
+     text-align: center; /* Pusatkan teks */
+   }
+   .btn-below-welcome {
+     position: absolute; /* Menetapkan posisi absolut */
+     top: 80%; /* Menempatkan di bawah tulisan kedua */
+     left: 50%; /* Menempatkan di tengah horizontal */
+     transform: translateX(-50%); /* Pusatkan elemen */
+     background-color : #1565c0;
+     border : none;
+   
+   }
+   .nav-cartoon {
+     position: relative; /* Menetapkan posisi relatif */
+     display: inline-block; /* Agar elemen bisa berada dalam aliran teks */
+     margin-right: 20px; /* Jarak kanan */
+   }
+   .nav-cartoon img {
+     max-height: 40px; /* Tinggi maksimum gambar */
+     vertical-align: middle; /* Pusatkan gambar secara vertikal */
+   }
+   .nav-cartoon .nav-link {
+     padding-left: 50px; /* Tambahkan padding kiri untuk membuat ruang untuk gambar */
+   }
+   .half-image {
+     position: absolute;
+     top: 20%;
+     left: 10%;
+     transform: translateX(-50%);
+     z-index: 0; /* Mengubah nilai z-index ke 0 */
+     max-height: 100%;
+     width: 350px;
+   }
+   .sub-judul{
+     margin-top: 4%; 
+     width: 75%;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     align-items: center;
+   justify-content: space-between;
+   }
+   .main-content {
+     margin-top: 72px; /* Jarak dari navigasi */
+     padding: 20px;
+     
+   }
+   .column {
+     border: 1px solid #ddd;
+     padding: 20px;
+   }
+ .container{
+   margin-top:3%;
+   width: 50%;
+   height: 20%;
+   position : relative;
+ }
+ @keyframes fadeIn {
+     from { opacity: 0; }
+     to { opacity: 1; }
+   }
+
+   /* Efek pudar */
+   @keyframes fadeOut {
+     from { opacity: 1; }
+     to { opacity: 0; }
+   }
+
+   /* Gambar akan muncul dengan animasi masuk */
+   .fadeIn {
+     animation: fadeIn 1s ease-in-out;
+   }
+
+   /* Gambar akan memudar dengan efek pudar */
+   .fadeOut {
+     animation: fadeOut 1s ease-in-out;
+   }
+   .guide-book {
+    position: absolute;
+    width: 100%; /* Atur lebar sesuai kebutuhan */
+    max-width: 60%; /* Atur lebar maksimum untuk kontainer */
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.guide-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60%; /* Atur lebar latar belakang biru */
+    height: 120%;
+    background-color: #a1d1e3;
+    border-radius:50%;
+    margin: 0 auto;
+    margin-top: 50px;
+   
+}
+
+.guide-content {
+    position: relative; /* Gunakan posisi relatif untuk konten agar bisa menumpuk di atas latar belakang */
+    padding: 20px; /* Atur padding untuk jarak antara konten dan latar belakang */
+    z-index: 3; /* Atur z-index agar konten muncul di atas latar belakang */
+    left : 50%;
+    top : 20%;
+}
+
+
+
+.guide-book.sub-judul h4 {
+  position: absolute; /* Atur posisi absolut pada .sub-judul */
+  top: 0; /* Geser ke atas */
+  left: 0; /* Geser ke kiri */
+  width: 50%; /* Lebar 50% dari kontainer .guide-book */
+  padding: 20px; 
+}
+
+h4:last-child {
+    margin-top: 90px; /* Atur margin atas untuk teks "Cara Mudah Untuk Mengerti" */
+}
+.book-image {
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  z-index:2;
+}
+
